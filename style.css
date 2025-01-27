@@ -127,13 +127,20 @@ table {
     border-collapse: collapse;
 }
 
-caption {
-    margin: 5px 0px 5px -25px;
+.paragrafo {
+    margin: 10px 0px 10px 0px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
 }
 
 tr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin: 10px 0px 10px 0px;
+}
+
+td {
+    padding-left: 30px;
 }
 
 .calorias {
